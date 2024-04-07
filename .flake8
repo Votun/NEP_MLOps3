@@ -1,0 +1,6 @@
+[flake8]
+min-name-length = 2
+max-name-length = 12
+max-cognitive-score = 12
+max-cognitive-average = 8
+max-tuple-unpack-length = 3

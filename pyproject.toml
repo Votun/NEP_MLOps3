@@ -1,0 +1,23 @@
+[project]
+name = "NEP_MLOps3"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Votun", email = "-"},
+]
+dependencies = [
+    "gradio>=4.25.0",
+    "wemake-python-styleguide>=0.19.2",
+    "pre-commit>=3.7.0",
+]
+requires-python = "==3.11.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
+
+
+[tool.wemake_python_styleguide]
+# flake8 does not support pyproject.toml, see .flake8;
